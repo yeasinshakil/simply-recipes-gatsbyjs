@@ -32,10 +32,6 @@ const Navbar = () => {
                     >tags</Link>
 
 
-                    <Link to='/' className='nav-link' activeClassName='active-link'
-                    onClick={()=> setShow(false)}
-                    >Home</Link>
-
                     <Link to='/about' className='nav-link' activeClassName='active-link'>about</Link>
 
                     <div className="nav-link contact-link">
