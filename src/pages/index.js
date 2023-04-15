@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 
 import { StaticImage } from "gatsby-plugin-image"
 import ComponentName from '../example/FetchData';
+import AllRecipes from '../components/AllRecipes';
 
 const index = () => {
   return (
@@ -23,7 +24,8 @@ const index = () => {
             </div>
           </div>
         </header>
-        <ComponentName/>
+        {/* <ComponentName/> */}
+      <AllRecipes/>
       </main>
     </Layout>
   );
